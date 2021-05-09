@@ -1,5 +1,5 @@
 input_data_path: "data/heart.csv"
-input_data_for_validation: "data/sample_for_predict.csv"
+input_data_for_validation: "data/sample_for_valid.csv"
 output_model_path: "models/random_forest.pkl"
 output_data_preprocessor_path: "models/data_preprocessor_rf.pkl"
 predicts_path: "data/predicts.csv"
