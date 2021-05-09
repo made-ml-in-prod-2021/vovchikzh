@@ -1,51 +1,50 @@
-Машинное обучение в продакшене
-Студент DS-21 Жуйков Владимир
-https://data.mail.ru/profile/v.zhujkov/
+# Машинное обучение в продакшене <br/>
+## Студент DS-21 Жуйков Владимир <br/>
+https://data.mail.ru/profile/v.zhujkov/ <br/>
 
-ДЗ № 1
-Необходимо установить пакеты:
-pip install -r requirements.txt
+### ДЗ № 1 <br/>
+#### Необходимо установить пакеты: <br/>
+pip install -r requirements.txt <br/>
 
-Источник данных для модели: 
-https://www.kaggle.com/ronitf/heart-disease-uci
+#### Источник данных для модели: <br/>
+https://www.kaggle.com/ronitf/heart-disease-uci <br/>
 
-Подготвка данных:
-- нормализация
-- OneHotEncoding
+#### Подготвка данных: <br/>
+- нормализация <br/>
+- OneHotEncoding <br/>
 
-Используемые модели машинного обучения: 
-- логистическая регрессия
-- случайный лес
+#### Используемые модели машинного обучения: <br/>
+- логистическая регрессия <br/>
+- случайный лес <br/>
 
-Обучение логистической регрессии:
-python ml_project/train.py configs/config_log_r.yml train
+#### Обучение логистической регрессии: <br/>
+python ml_project/train.py configs/config_log_r.yml train <br/>
 
-Обучение случайного леса:
-python ml_project/train.py configs/config_rand_f.yml train
+#### Обучение случайного леса: <br/>
+python ml_project/train.py configs/config_rand_f.yml train <br/>
 
-Результат записывается в следующую папку:
-/models
-
-
-Валидация логистической регрессии:
-python ml_project/train.py configs/config_log_r.yml validate
-
-Валидация случайного леса: 
-python ml_project/train.py configs/config_rand_f.yml validate
-
-Результат записывается в следующую папку:
-model/predicts.csv
+#### Результат записывается в следующую папку: <br/>
+/models <br/>
 
 
-Тестирование модели: 
-cd ml_project
-pytest ../tests --cov
+#### Валидация логистической регрессии: <br/>
+python ml_project/train.py configs/config_log_r.yml validate <br/>
 
+#### Валидация случайного леса: <br/>
+python ml_project/train.py configs/config_rand_f.yml validate <br/>
+
+#### Результат записывается в следующую папку: <br/>
+model/predicts.csv <br/>
+
+#### Тестирование модели: <br/>
+cd ml_project <br/>
+pytest ../tests --cov <br/>
 
 
 
 
-Самооценка: 
+
+#### Самооценка: <br/>
 -2. ок, +1 <br/>
 -1. ок, 0 <br/>
 0. ок, +2 <br/>
