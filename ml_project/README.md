@@ -18,20 +18,20 @@ https://www.kaggle.com/ronitf/heart-disease-uci <br/>
 - случайный лес <br/>
 
 #### Обучение логистической регрессии: <br/>
-python ml_project/train.py configs/config_log_r.yml train <br/>
+python ml_project/train_p.py configs/config_log_r.yml train <br/>
 
 #### Обучение случайного леса: <br/>
-python ml_project/train.py configs/config_rand_f.yml train <br/>
+python ml_project/train_p.py configs/config_rand_f.yml train <br/>
 
 #### Результат записывается в следующую папку: <br/>
 /models <br/>
 
 
 #### Валидация логистической регрессии: <br/>
-python ml_project/train.py configs/config_log_r.yml validate <br/>
+python ml_project/train_p.py configs/config_log_r.yml validate <br/>
 
 #### Валидация случайного леса: <br/>
-python ml_project/train.py configs/config_rand_f.yml validate <br/>
+python ml_project/train_p.py configs/config_rand_f.yml validate <br/>
 
 #### Результат записывается в следующую папку: <br/>
 model/predicts.csv <br/>
